@@ -1,0 +1,17 @@
+.tab-content{
+  background-color: rgba(246, 251, 251, 0.702);
+  font-weight: 300;
+  font-size:large;
+  line-height: 40px;
+  color: black;
+  border-radius: 25px;
+  padding: 25px;
+  
+}
+
+main{
+  background-image: url(/images/nepal\ 1.jpeg);
+  background-position:center ;
+  background-size:cover;
+}
+

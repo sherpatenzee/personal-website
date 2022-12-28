@@ -1,66 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
-  <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-  crossorigin="anonymous">
-<link rel="stylesheet" href="">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/destination.css">
 </head>
 
-  <body data-new-gr-c-s-check-loaded="14.1088.0" data-gr-ext-installed="">
-    
-     <!-- Navbar -->
-     
-     <nav class="navbar  navbar-expand-md  navbar-scroll   ">
-      <div class="container-fluid  ">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item ">
-              <a class="nav-link r" href="home.html">
-                <h5>Home</h5>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="destination.html">
-                <h5>Destinations</h5>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link align-content-center" href="adventures.html">
-                <h5>Adventures</h5>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<body data-new-gr-c-s-check-loaded="14.1088.0" data-gr-ext-installed="">
+
   <!-- Navbar -->
 
-  <footer class="blog-footer">
-    <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+  <nav class="navbar  navbar-expand-md  navbar-scroll   ">
+    <div class="container-fluid  ">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item ">
+            <a class="nav-link r" href="home.html">
+              <h5>Home</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="destination.html">
+              <h5>Destinations</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link align-content-center" href="adventures.html">
+              <h5>Adventures</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+        role="tab" aria-controls="home-tab-pane" aria-selected="true">Everest Base Camp</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
+        role="tab" aria-controls="profile-tab-pane" aria-selected="false">Annapurna Base Camp</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button"
+        role="tab" aria-controls="contact-tab-pane" aria-selected="false">Langtang Valley</button>
+    </li>
+
+  </ul>
+
+  <main id="bgImg">
+  <div class="container">
+  <div class="tab-content mt-4" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+      <h3 class="heading text-center">Everest Base Camp Itinerary</h3>
+      <ul>
+        <li>Day 1: Arrive in Kathmandu and transfer to your hotel.</li>
+
+        <li> Day 2: Fly from Kathmandu to Lukla (2,800m/9,186ft) and start the trek to Phakding (2,652m/8,700ft).</li>
+
+        <li>Day 3: Trek from Phakding to Namche Bazaar (3,440m/11,283ft).</li>
+        <li>Day 4: Acclimatization day in Namche Bazaar. Hike to the Everest View Hotel or visit the Sherpa Museum.</li>
+
+        <li>Day 5: Trek from Namche Bazaar to Tengboche (3,870m/12,694ft). Visit the Tengboche Monastery.</li>
+        <li>Day 6: Trek from Tengboche to Dingboche (4,410m/14,468ft).</li>
+        <li>Day 7: Acclimatization day in Dingboche. Hike to Nagarjun Hill or visit the Chhukung Valley.</li>
+        <li> Day 8: Trek from Dingboche to Lobuche (4,910m/16,109ft).</li>
+        <li>Day 9: Trek from Lobuche to Gorak Shep (5,170m/16,961ft) and visit the Everest Base Camp (5,364m/17,594ft).
+        </li>
+        <li>Day 10: Hike to Kala Patthar (5,643m/18,513ft) and back to Gorak Shep.</li>
+        <li>Day 11: Trek from Gorak Shep to Pheriche (4,371m/14,342ft).</li>
+        <li> Day 12: Trek from Pheriche to Namche Bazaar.</li>
+        <li>Day 13: Trek from Namche Bazaar to Lukla.</li>
+        <li> Day 14: Fly from Lukla to Kathmandu and transfer to your hotel.</li>
+      </ul>
+      <p>This itinerary can vary depending on the specific route and pace of the trek. It's important to allow for
+        adequate acclimatization and rest days to avoid altitude sickness. Our experienced guides will take care of all
+        the details and ensure that your trek is safe and enjoyable.</p>
+    </div>
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+      <h3 class="heading text-center">Annapurna Base Camp Itinerary</h3>
+      <ul>
+        <li>Day 1: Arrive in Kathmandu and transfer to your hotel.</li>
+
+        <li> Day 2: Drive/Fly from Kathmandu to Pokhara (820m/2,690ft).</li>
+
+        <li>Day 3: Drive from Pokhara to Nayapul (1,010m/3,313ft) and start the trek to Tikhedhunga (1,570m/5,151ft)..
+        </li>
+        <li>Day 4: Trek from Tikhedhunga to Ghorepani (2,850m/9,348ft).</li>
+
+        <li>Day 5: Hike to Poon Hill (3,210m/10,529ft) for sunrise and then trek to Tadapani (2,630m/8,628ft)..</li>
+        <li>Day 6: Trek from Tadapani to Chomrong (2,170m/7,119ft).</li>
+        <li>Day 7: Trek from Chomrong to Dovan (2,600m/8,530ft).</li>
+        <li> Day 8: Trek from Dovan to Deurali (3,230m/10,595ft).</li>
+        <li>Day 9: Trek from Deurali to Annapurna Base Camp (4,130m/13,550ft)..</li>
+        <li>Day 10: Trek from Annapurna Base Camp to Bamboo (2,310m/7,579ft).</li>
+        <li>Day 11: Trek from Bamboo to Jhinu Danda (1,780m/5,840ft) and visit the Jhinu Hot Springs.</li>
+        <li> Day 12: Trek from Jhinu Danda to Pothana (1,960m/6,430ft).</li>
+        <li>Day 13: Trek from Pothana to Phedi (1,110m/3,640ft) and drive back to Pokhara.</li>
+        <li> Day 14: Drive/Fly from Pokhara to Kathmandu and transfer to your hotel.</li>
+      </ul>
+      <p>This itinerary can vary depending on the specific route and pace of the trek. It's important to allow for
+        adequate rest days to ensure a comfortable and enjoyable experience. Our experienced guides will take care of
+        all the details and ensure that your trek is safe and memorable.</p>
+    </div>
+    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+      <h3 class="heading text-center">Langtang Valley Itinerary</h3>
+      <ul>
+        <li>Day 1: Arrive in Kathmandu and transfer to your hotel.</li>
+
+        <li> Day 2: Day 2: Drive from Kathmandu to Syabrubesi (1,550m/5,085ft).</li>
+
+        <li>Day 3: Trek from Syabrubesi to Langtang village (3,430m/11,253ft).</li>
+        <li>Day 4: Trek from Langtang village to Kyangjin Gompa (3,870m/12,694ft).</li>
+
+        <li>Day 5: Acclimatization day in Kyangjin Gompa. Hike to Tserko Ri (4,985m/16,368ft) or visit the Langtang
+          Lirung Glacier.</li>
+        <li>Day 6: Trek from Kyangjin Gompa to Ghora Tabela (3,080m/10,104ft).</li>
+        <li>Day 7: Trek from Ghora Tabela to Tarke Ghyang (2,590m/8,497ft).</li>
+        <li> Day 8: Trek from Tarke Ghyang to Sermathang (2,610m/8,563ft).</li>
+        <li>Day 9: Trek from Sermathang to Melamchi Pul Bazar (870m/2,854ft) and drive back to Kathmandu.</li>
+
+
+      </ul>
+      <p>This itinerary can vary depending on the specific route and pace of the trek. It's important to allow for
+        adequate rest days to ensure a comfortable and enjoyable experience. Our experienced guides will take care of
+        all the details and ensure that your trek is safe and memorable.</p>
+    </div>
+    <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...
+    </div>
+  </div>
+</div>
+
+
+
+ 
+
+
+
+  <hr>
+
+</main>
+  <footer class="blog-footer text-center">
+    <p>Sumit Treks Pvt.Ltd,Nepal<a href="https://twitter.com/"></a>.</p>
     <p>
       <a href="#">Back to top</a>
     </p>
   </footer>
-  
 
 
 
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"
-  ></script>
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
