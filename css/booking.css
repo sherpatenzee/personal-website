@@ -1,0 +1,11 @@
+main{
+  background-image: url(/images/prem-babu-moktan-8oM2kdP9x8c-unsplash.jpg);
+  background-position:center ;
+  background-size:cover;
+}
+.form{
+  background-color:rgba(47, 47, 46, 0.813);
+  color: antiquewhite;
+  padding: 30px;
+  border-radius: 15px;
+}
